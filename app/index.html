@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dompet Keluarga — Anggaran Rumah Tangga Keluarga Santoso</title>
+<meta name="description" content="Dompet Keluarga: atur anggaran rumah tangga, catat pengeluaran, pantau tagihan, dan kejar target tabungan — semua dalam satu halaman, tanpa perlu daftar.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e7a5f'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3ERp%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">Rp</span>
+      <span class="brand-text"><strong>Dompet Keluarga</strong><small>Anggaran rumah tangga</small></span>
+    </a>
+    <nav class="mainnav" id="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-route="">Beranda</a>
+      <a href="#/anggaran" data-route="anggaran">Anggaran</a>
+      <a href="#/transaksi" data-route="transaksi">Transaksi</a>
+      <a href="#/tagihan" data-route="tagihan">Tagihan</a>
+      <a href="#/tabungan" data-route="tabungan">Tabungan</a>
+      <a href="#/laporan" data-route="laporan">Laporan</a>
+      <a href="#/kalkulator" data-route="kalkulator">Kalkulator</a>
+      <a href="#/panduan" data-route="panduan">Panduan</a>
+    </nav>
+    <div class="month-chip" id="month-chip" title="Periode anggaran aktif">November 2026</div>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <strong>Dompet Keluarga</strong> — dibuat untuk Keluarga Santoso, Jakarta.
+      Semua angka di situs ini adalah contoh nyata keluarga Indonesia dan tersimpan
+      di peramban Anda sendiri; tidak ada data yang dikirim ke mana pun.
+    </div>
+    <div class="footer-links">
+      <a href="#/panduan">Cara memakai situs ini</a>
+      <a href="#/kalkulator">Kalkulator 50/30/20</a>
+      <button type="button" id="reset-data" class="linklike">Kembalikan data contoh</button>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
